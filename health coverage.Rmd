@@ -1,0 +1,20 @@
+---
+title: "health coverage code book"
+output: html_document
+date: "2023-10-19"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+URL:https://datausa.io/profile/geo/new-orleans-la#health Author codebook: Hector Medrano Title: Data USA In 2021, insured persons according to age ranges were distributed in 21.3% under 18 years, 24.3% between 18 and 34 years, 39.3% between 35 and 64 years, and 15.1% over 64 years.By gender, of the total number of insured persons, 46% were men and 54% were women.
+ID.Year- the year it was due
+ID.Health.Coverage: let us know if it is public or private
+Health.Coverage: if it is public or private 
+ID.Gender: if it is a male or a female 
+Health.Insurance.by.Gender.and.Age: how many health insurance are given for males and females
+Geography: the location of where the health insurance were given
+ID.Geography: The Id of New Orleans
+Slug.Geography: is the land
+Share: how many times it was shared
